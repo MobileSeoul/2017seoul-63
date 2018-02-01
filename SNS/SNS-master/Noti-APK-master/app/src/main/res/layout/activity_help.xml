@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/help_back_design">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:text="도움말"/>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/help_image"
+            android:layout_width="175dp"
+            android:layout_height="175dp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/help_info"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "asdfasdasdf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/dot_0"
+            android:background="@drawable/non_action"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_marginRight="3dp"/>
+        <ImageView
+            android:id="@+id/dot_1"
+            android:background="@drawable/non_action"
+            android:layout_width="7dp"
+            android:layout_marginRight="3dp"
+            android:layout_height="7dp" />
+        <ImageView
+            android:id="@+id/dot_2"
+            android:background="@drawable/non_action"
+            android:layout_width="7dp"
+            android:layout_marginRight="3dp"
+            android:layout_height="7dp" />
+        <ImageView
+            android:id="@+id/dot_3"
+            android:background="@drawable/non_action"
+            android:layout_width="7dp"
+            android:layout_marginRight="3dp"
+            android:layout_height="7dp" />
+        <ImageView
+            android:id="@+id/dot_4"
+            android:background="@drawable/non_action"
+            android:layout_width="7dp"
+            android:layout_height="7dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

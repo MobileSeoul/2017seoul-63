@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:paddingBottom="55dp"
+        android:id="@+id/recyclerView_t"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:overScrollMode="always"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="60dp"
+                android:orientation="vertical">
+
+
+                <TextView
+
+                    android:id="@+id/cal_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_light"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:text="month"
+                    android:textSize="17dp" />
+
+                <com.github.sundeepk.compactcalendarview.CompactCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/compactcalendar_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:layout_gravity="bottom"
+                    app:compactCalendarBackgroundColor="#ffffff"
+                    app:compactCalendarCurrentDayBackgroundColor="#36afff"
+                    app:compactCalendarCurrentDayIndicatorStyle="no_fill_large_indicator"
+                    app:compactCalendarCurrentSelectedDayBackgroundColor="#36afff"
+                    app:compactCalendarCurrentSelectedDayTextColor="#fff"
+                    app:compactCalendarDisplayOtherMonthDays="true"
+                    app:compactCalendarMultiEventIndicatorColor="#fff"
+                    app:compactCalendarOtherMonthDaysTextColor="#d1d5d9"
+                    app:compactCalendarTargetHeight="250dp"
+                    app:compactCalendarTextColor="#95989A"
+                    app:compactCalendarTextSize="12sp" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#fff"
+                app:layout_collapseMode="pin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:fontFamily="@font/roboto_light"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Calendar"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/goToSetting_Calender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_settings_black_24dp" />
+
+            </android.support.v7.widget.Toolbar>
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>

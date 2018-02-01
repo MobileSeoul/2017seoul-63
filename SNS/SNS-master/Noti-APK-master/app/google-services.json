@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "866581428767",
+    "firebase_url": "https://school-notification-service.firebaseio.com",
+    "project_id": "school-notification-service",
+    "storage_bucket": "school-notification-service.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866581428767:android:eb9f946ed0c8aa1e",
+        "android_client_info": {
+          "package_name": "com.noti.sns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866581428767-6srj3suj3fct0b9g7pm9v5jjf06e9e31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noti.sns",
+            "certificate_hash": "9e94f0c23b71aa5adad7860289360ff11170e183"
+          }
+        },
+        {
+          "client_id": "866581428767-ccbo07mttt4alb4mlev3tsesi6ctbdni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbRLmu2Jl8dSAkHEuZ_gcD4t9yApAfmTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866581428767-ccbo07mttt4alb4mlev3tsesi6ctbdni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

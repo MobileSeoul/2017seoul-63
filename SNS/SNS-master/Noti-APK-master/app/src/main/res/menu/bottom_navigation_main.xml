@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="false"
+        android:state_pressed="true"
+        android:icon="@drawable/ic_home_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/action_calender"
+        android:enabled="true"
+        android:icon="@drawable/ic_date_range_24dp"
+        android:title="Calender" />
+    <item
+        android:id="@+id/action_lunch"
+        android:enabled="true"
+        android:icon="@drawable/ic_room_service_24dp"
+        android:title="Meal"/>
+</menu>

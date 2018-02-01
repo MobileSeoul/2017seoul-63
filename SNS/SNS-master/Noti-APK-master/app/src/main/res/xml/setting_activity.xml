@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="setting_activity_account"
+        android:title="어플리케이션 정보">
+        <Preference
+            android:key="setting_activity_id"
+            android:title="앱 이름 : SNS"
+            android:selectable="false" />
+        <Preference
+            android:key="setting_activity_app_version"
+            android:title="버전 : 1.0"
+            android:selectable="false" />
+        <Preference
+            android:key="setting_activity_developer"
+            android:title="개발팀 : 핫식스보다 Monster"
+            android:selectable="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="setting_activity_"
+        android:title="어플리케이션 설정">
+        <Preference
+            android:key="setting_activity_up"
+            android:title="학사일정 동기화"
+            android:summary="바뀐 학사일정을 동기화 시킵니다."
+            android:selectable="true"/>
+        <Preference
+            android:key="setting_activity_help"
+            android:title="도움말 보기"
+            android:inputType="text"/>
+        <Preference
+            android:key="setting_activity_logout"
+            android:title="로그아웃"
+            android:summary=""
+            android:selectable="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

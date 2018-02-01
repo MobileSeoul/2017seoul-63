@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sign_up_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_gradient"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/sign_up_box"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="center"
+            android:text="회원가입"
+            android:textColor="#fff"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/reg_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/input_design"
+            android:fontFamily="@font/roboto_light"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/reg_password"
+            android:layout_width="228dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/input_design"
+            android:fontFamily="@font/roboto_light"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/reg_name"
+            android:layout_width="228dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/input_design"
+            android:fontFamily="@font/roboto_light"
+            android:hint="이름"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/reg_school"
+            android:layout_width="228dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/input_design"
+            android:fontFamily="@font/roboto_light"
+            android:hint="학교"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/reg_schnum"
+            android:layout_width="228dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/input_design"
+            android:fontFamily="@font/roboto_light"
+            android:hint="학번"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/register_confirm"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_design"
+            android:elevation="5dp"
+            android:padding="15dp"
+            android:src="@drawable/ic_check_blue_24dp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/pin_popup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bb000000"
+        android:elevation="8dp"
+        android:visibility="gone"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/pin_box"
+            android:elevation="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="Room Name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="방 이름을 입력하세요"
+                android:textColor="#95989A"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="23dp"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/roomNameEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:gravity="center"
+                    android:inputType="text">
+
+                </EditText>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/pin_btn"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pin"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:text="확인"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/login_gradient">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School"
+            android:layout_marginLeft="10dp"
+            android:textSize="50sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/roboto_light"/>
+        <TextView
+            android:layout_marginTop="-10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="50sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/roboto_light"/>
+        <TextView
+            android:layout_marginTop="-10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service"
+            android:layout_marginLeft="10dp"
+            android:textSize="50sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/roboto_light"/>
+
+        <EditText
+            android:id="@+id/email_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/input_design"
+            android:fontFamily="@font/roboto_light"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/pw_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/input_design"
+            android:fontFamily="@font/roboto_light"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="15sp" />
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            >
+
+            <ImageView
+
+                android:id="@+id/register_btn"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:background="@drawable/btn_design2"
+                android:src="@drawable/ic_person_add_black_24dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+
+                android:id="@+id/login_btn"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="5dp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:background="@drawable/btn_design"
+                android:src="@drawable/ic_arrow_forward_24dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"/>
+
+            <ImageView
+
+                android:id="@+id/passwd_btn"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:background="@drawable/btn_design2"
+                android:src="@drawable/ic_help_white_24dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

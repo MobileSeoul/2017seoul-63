@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorMenuback">#fff</color>
+    <color name="noti">#36Afff</color>
+    <color name="colorPrimary">#36afff</color>
+    <color name="colorPrimaryDark">#36Afff</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>
